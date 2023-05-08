@@ -8,6 +8,7 @@ p{
     font-family: arial;
     font-size: 16px;
     padding: 20px;
+    text-align: justify;
 }
 h1{
     font-family: arial;
@@ -28,9 +29,30 @@ header{
     text-align: center;
     
 }
-
 footer{
     background-color: #042c6b;
     color: #fff;
     padding: 15px;
+}
+figure{
+    text-align: center;
+}
+.imagem-conteudo{
+    border-radius: 20px 50px;
+}
+@media(min-width :320px) and (max-width: 450px) {
+    .imagem-conteudo{
+        border-radius: 20px 50px;
+        width: 80%; 
+}
+}
+
+#imagem-topo{
+    text-align: center;
+}
+#nomeUsuario{
+    text-align: center;
+    font-size: 18px;
+    font-family: arial;
+    color: #fff;
 }
